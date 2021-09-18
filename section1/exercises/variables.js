@@ -23,22 +23,36 @@ console.log(enrolledStudents);
 // YOU DO:
 // Write code below to save the string 'Harry Potter must not return to Hogwarts!'
 // log that variable to the console.
-
+var dontReturn = "Harry Potter must not return to Hogwarts!";
+console.log(dontReturn);
 
 // YOU DO:
-// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`. 
+// Declare three variables, named `firstName`, `isHungry` and `numberOfPets`.
   // Store the appropriate data types in each.
+  var firstName = "Dillon";
+  var isHungry = true;
+  var numberOfPets = 1;
 // log all three variables to the console.
+console.log(firstName + ", " + isHungry + ", " + numberOfPets);
 
 // IN WORDS:
-// How did you decide to use the data type you did for each of the three variables above? 
+// How did you decide to use the data type you did for each of the three variables above?
   // Explain.
+  /*
+  For firstName, most names are strings, as are words/phrases.
+  For isHungry, the options are either a yes or no, similar to a boolean true/false.
+  For numberOfPets, number is the key word here, signaling interger.
+   */
 
 
 // YOU DO:
-// Re-assign the values to the three variables from the previous challenge to different 
+// Re-assign the values to the three variables from the previous challenge to different
   // values (but same data type).
+  firstName = "Bobby";
+  isHungry = false;
+  numberOfPets = 8675309;
 // log all three variables to the console.
+console.log(firstName + ", " + isHungry + ", " + numberOfPets);
 
 
 // YOU DO:
@@ -46,10 +60,11 @@ console.log(enrolledStudents);
 var healthySnacks = 6;
 var junkFoodSnacks = 8;
 
+console.log(healthySnacks + junkFoodSnacks);
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
-// as you would expect? 
+// Did you run this file in your terminal to make sure everything printed out to the console
+// as you would expect?
