@@ -1,9 +1,9 @@
 ## Section 1 Reflection
 
 1. How did the SuperLearner Article resonate with you? What from this list do you already do? Want to start doing or do more of? Is there anything not on this list, that you would add to it?
-I felt they were very good suggestions for long term health and happiness. I enjoy teaching and have always viewed learning as a process, striving to understand rather than just get the right answer. I've feel like I've grown so much recently in many aspects of my life, and have been working on adopting this mentality of growth for a long time.
+  I felt they were very good suggestions for long term health and happiness. I enjoy teaching and have always viewed learning as a process, striving to understand rather than just get the right answer. I've feel like I've grown so much recently in many aspects of my life, and have been working on adopting this mentality of growth for a long time.
 
-Something I need to start doing more of is taking *productive* breaks. I feel as though many times I don't spend my few minutes that I'm distracted productively, and I end up spending longer than I should, which causes me to take less breaks, and the cycle continues. I'm working on that, though! Something I may add is to just take care of every aspect of your health - physical/mental/emotional/social/financial/spiritual - just whatever "health" means to you. All of these things play into each other, and being in a good headspace is key to learning and performing.
+  Something I need to start doing more of is taking *productive* breaks. I feel as though many times I don't spend my few minutes that I'm distracted productively, and I end up spending longer than I should, which causes me to take less breaks, and the cycle continues. I'm working on that, though! Something I may add is to just take care of every aspect of your health - physical/mental/emotional/social/financial/spiritual - just whatever "health" means to you. All of these things play into each other, and being in a good headspace is key to learning and performing.
 
 2. What are the data types you learned about in this section? In your own words, define each.
 + string - a word, phrase, or text wrapped in quotations.
@@ -16,6 +16,7 @@ $console.log("Hello World!");
 
 4. What is/are the character(s) you would use to indicate comments in a JavaScript file? What is the purpose of a code comment?
 + // for shorter/inline comments
+
 or
 + /* for longer/multiline comments */
 
