@@ -38,16 +38,26 @@ if (bearChoice === 1) {
 Questions
 
 1. In English, using technical vocabulary, describe what is happening between lines 14 and 18.
+Lines 14-18 set the bearClothing variable based on which door that the user selects, which is set via line 8 using the doorChoice variable.
 
 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing
 
 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+scarf
 
 4. In English, using technical vocabulary, describe what is happening between lines lines 27 and 35.
+Lines 27-35 is a chain of if/else if/else statements.
+These statements test whether the input evaluates to true, and if so, it does the following code, otherwise, it moves on and tests the next else if condition.
+If none of the if/else if conditions are met, then the else path will be taken.
 
 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+"You run as fast as you can into the next room. It's full of snakes!"
 
 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+"You tell the bear the scarf is too small and it starts to cry!"
 
 7. What is your favorite ending?
+My favorite ending would be the else statement, meaning if bearChoice is anything other than 1, 2, or 3.
+Bears are awesome, and in media make some of the best friends. Loved Little Bear growing up. You also have Baloo and Winnie the Pooh! Who wouldn't want a friend like them?
 */

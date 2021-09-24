@@ -23,9 +23,11 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers equal to stringTeachers? (use the == operator)
+console.log("Is numberTeachers equal to stringTeachers?", numberTeachers == stringTeachers);
 // this should log: true
 
 /*
@@ -35,6 +37,7 @@ perform this evaluation
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers? (use the === operator)
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // this should log: false
 
 /*
@@ -48,18 +51,23 @@ you develop good habits that follow best practice, from now on, use the strict c
 */
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 // this should log: true
 
 
@@ -74,20 +82,28 @@ you develop good habits that follow best practice, from now on, use the strict c
 
 console.log(4 < 9);
 //YOU DO: Explain.
+//Prints to the console "true" or "false" based on the comparison if 4 is less than 9
+//Evaluates to true
 
 var books = 3;
-console.logs(4 < books);
+console.log(4 < books); //original was console.logs, but was logs is not a function
 // YOU DO: Explain.
+//Prints to the console "true" or "false" based on the comparison if 4 is less than the value of books, which is 3
+//Evaluates to false
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+//Prints to the console "true" or "false" based on the comparison if friends is less than siblings, meaning the comparison is if 6 is greater than 2
+//Evaluates to true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+//Prints to the console "true" or "false" based on the comparison if attendees does not strictly equal meals, meaning the comparison is if 9 doesn't equal 8
+//Evaluates to true
 
 
 //-------------------
@@ -110,22 +126,29 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
-
+/*
+          Final line of code evaluates to "1". The && operator returns one of the operands, so when used with a value that is a non-boolean value, it will
+          return that value instead of a boolean.
+          It would be possible to calculate the age and set parameters for "puppy/adult/elderly" ages and use that value, but given only the age as a variable,
+          the compiler has no ability to associate an age number with an age group.
+*/
 //-------------------
 // FINAL CHECK
 //-------------------
 
 // Did you run this file in your terminal to make sure everything printed out to the console
 // as you would expect?
+//Yes!
