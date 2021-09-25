@@ -1,0 +1,4 @@
+- pop - removes the last item of the array
+- push - adds a passed item to end of an array
+- shift - removes the first item of the array
+- unshift - add the passed item to the front of the array
